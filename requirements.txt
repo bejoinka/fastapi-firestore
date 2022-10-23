@@ -1,0 +1,6 @@
+fastapi
+google-cloud-firestore==2.6.1
+loguru
+python-dotenv==0.20.0
+rich
+uvicorn
