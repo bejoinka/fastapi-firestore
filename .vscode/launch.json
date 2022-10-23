@@ -10,9 +10,15 @@
             "request": "launch",
             "module": "uvicorn",
             "args": [
+                "--port",
+                "8080",
+                "--host",
+                "0.0.0.0",
+                "--reload",
+                "--app-dir",
+                "src",
                 "app:app"
             ],
-            "cwd": "${workspaceFolder}/src",
             "jinja": true,
             "justMyCode": true
         }

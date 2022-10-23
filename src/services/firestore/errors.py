@@ -1,0 +1,2 @@
+class DocumentNotFoundError(FileNotFoundError):
+    pass
